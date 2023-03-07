@@ -1,0 +1,6 @@
+package com.mojdigital.backend.mvc;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface CustomerRepository extends JpaRepository<Customer, Long> {
+}
